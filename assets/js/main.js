@@ -256,23 +256,49 @@
   });
 
 })()
+  
+/**
+   * Gallery Slider
+   */
 
-/** 
-*gallery
- */
 
-
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+new Swiper('.gallery-slider', {
+  speed: 400,
+  loop: true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false
+  },
+  slidesPerView: 'auto',
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 30
+    },
+    640: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
+    992: {
+      slidesPerView: 5,
+      spaceBetween: 30
+    },
+    1200: {
+      slidesPerView: 7,
+      spaceBetween: 30
+    }
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
-}
+});
+
+/**
+ * Initiate gallery lightbox 
+ */
+const galleryLightbox = GLightbox({
+  selector: '.gallery-lightbox'
+});

@@ -1,242 +1,186 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-
-    <title>Balraj Jewellers</title>
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+   
+<head>
     <style>
-      div.gallery {
-        border: 1px solid #ccc;
-      }
-
-      div.gallery:hover {
-        border: 1px solid #777;
-      }
-
-      div.gallery img {
-        width: 100%;
-        height: auto;
-      }
-
-      div.desc {
-        padding: 15px;
-        text-align: center;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
+    div.gallery {
+      border: 1px solid #ccc;
+    }
+    
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+    
+    @media only screen and (max-width: 700px) {
       .responsive {
-        padding: 0 6px;
-        float: left;
-        width: 24.99999%;
+        width: 49.99999%;
+        margin: 6px 0;
       }
-
-      @media only screen and (max-width: 700px) {
-        .responsive {
-          width: 49.99999%;
-          margin: 6px 0;
-        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
       }
-
-      @media only screen and (max-width: 500px) {
-        .responsive {
-          width: 100%;
-        }
-      }
-
-      .clearfix:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
+    }
+    
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
     </style>
-  </head>
-  <body>
-    <h1 style="padding: 4px; text-align: center;">Rings<br>___</h1>
-
-    <br />
-
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="assets/img/rings/ring.jpg">
-          <img
-            src="assets/img/rings/ring.jpg"
-            alt="Cinque Terre"
-            width="600"
-            height="400"
-          />
-        </a>
-        
-      </div>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="assets/img/rings/ring1.jpg">
-          <img src="assets/img/rings/ring1.jpg"
-          alt="Cinque Terre"
-          width="600"
-          height="400"
-        />
-        
-      </div>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="assets/img/rings/ring4.jpg">
-          <img
-            src="assets/img/rings/ring4.jpg"
-            alt="Northern Lights"
-            width="600"
-            height="400"
-          />
-        </a>
-        
-      </div>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="assets/img/rings/ring5.jpg">
-          <img
-            src="assets/img/rings/ring5.jpg"
-            alt="Mountains"
-            width="600"
-            height="400"
-          />
-        </a>
-        
-      </div>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="assets/img/rings/ring6.jpg">
-          <img
-            src="assets/img/rings/ring6.jpg"
-            alt="Mountains"
-            width="600"
-            height="400"
-          />
-        </a>
-        
-      </div>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="assets/img/rings/ring7.jpg">
-          <img
-            src="assets/img/rings/ring7.jpg"
-            alt="Cinque Terre"
-            width="600"
-            height="400"
-          />
-        </a>
-        
-      </div>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="assets/img/rings/ring8.jpg">
-          <img src="assets/img/rings/ring8.jpg"
-          alt="Cinque Terre"
-          width="600"
-          height="400"
-        />
-        
-      </div>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="assets/img/rings/ring9.jpg">
-          <img
-            src="assets/img/rings/ring9.jpg"
-            alt="Northern Lights"
-            width="600"
-            height="400"
-          />
-        </a>
-        
-      </div>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="assets/img/rings/ring10.jpg">
-          <img src="assets/img/rings/ring10.jpg"
-          alt="Cinque Terre"
-          width="600"
-          height="400"
-        />
-        
-      </div>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="assets/img/rings/ring11.jpg">
-          <img
-            src="assets/img/rings/ring11.jpg"
-            alt="Northern Lights"
-            width="600"
-            height="400"
-          />
-        </a>
-        
-      </div>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="assets/img/rings/ring12.jpg">
-          <img src="assets/img/rings/ring12.jpg"
-          alt="Cinque Terre"
-          width="600"
-          height="400"
-        />
-        
-      </div>
-    </div>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="assets/img/rings/ring13.jpg">
-          <img
-            src="assets/img/rings/ring13.jpg"
-            alt="Northern Lights"
-            width="600"
-            height="400"
-          />
-        </a>
-        
-      </div>
-    </div>
-
-
+    </head>
+    <body>
     
+    <h1 style="padding: 4px; text-align: center;">Ring<br>___</h1>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="assets/img/ring.jpg">
+          <img src="assets/img/ring.jpg" alt="Cinque Terre" width="600" height="200">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+    
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="assets/img/ring1.jpg">
+          <img src="assets/img/ring1.jpg" alt="Forest" width="600" height="200">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+    
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="assets/img/ring3.jpg">
+          <img src="assets/img/ring3.jpg" alt="Mountains" width="600" height="200">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+    
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="assets/img/ring4.jpg">
+            <img src="assets/img/ring4.jpg" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
 
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="assets/img/ring5.jpg">
+            <img src="assets/img/ring5.jpg" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="assets/img/ring6.jpg">
+            <img src="assets/img/ring6.jpg" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="assets/img/ring7.jpg">
+            <img src="assets/img/ring7.jpg" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="assets/img/ring8.jpg">
+            <img src="assets/img/ring8.jpg" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="assets/img/ring9.jpg">
+            <img src="assets/img/ring9.jpg" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="assets/img/ring10.jpg">
+            <img src="assets/img/ring10.jpg" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="assets/img/ring11.jpg">
+            <img src="assets/img/ring11.jpg" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="assets/img/ring12.jpg">
+            <img src="assets/img/ring12.jpg" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="assets/img/ring13.jpg">
+            <img src="assets/img/ring13.jpg" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="assets/img/ring14.jpg">
+            <img src="assets/img/ring14.jpg" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+
+     <button><a href="index.html">Back</a></button>
     <div class="clearfix"></div>
-    
-
-    <div style="padding: 6px">
-      <a href="index.html" class="btn btn-primary">Back to home</a>
-    </div>
-  </body>
+</body>
 </html>
